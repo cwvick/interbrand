@@ -51,7 +51,8 @@ $(function() {
   	$('.nav_main').removeClass('select');
 
   	$(this).addClass('select');
-  	$('.kv_content').trigger("slideTo", index-1);
+  	window.location.href = url_link;
+  	// $('.kv_content').trigger("slideTo", index-1);
   });
 
 });
