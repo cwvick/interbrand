@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container { width:100%; margin:0 auto; background:url(../images/bgimage.png) fixed; }
+
+/* nav bar */
+.container .top { width:100%; background:url(../images/gray_40.png) repeat; position:fixed; z-index:1; }
+.container .top .nav { width:1100px; height:70px; margin:0 auto; }
+.container .top .nav .logo { display:block; width:170px; height:70px; text-indent:-9999px; background:url(../images/ASUSlogo.png) no-repeat; float:left; }
+
+.container .top .nav .menu { margin-left:120px; padding-top:30px; padding-left:80px; }
+.container .top .nav .menu li { float:left; }
+.container .top .nav .menu a.main { display:block; border-top:1px #999 solid; padding:5px 25px 10px 0; margin-left:7px; text-align:left; font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:15px; }
+.container .top .nav .menu a.main:hover { border-top:5px #FFF solid; }
+.container .top .nav .menu .happen:hover .second_list { display:block; }
+
+.container .top .nav .menu a.select { display:block; border-top:5px #FFF solid; padding:5px 25px 10px 0; margin-left:10px; color:#FFF; }
+.container .top .nav .menu .select:hover { display:block; border-top:5px #FFF solid; }
+
+.container .top .nav .menu li  a { display:block; color:#999; padding:10px 20px 20px; text-align:left; font-size:13px; }
+.container .top .nav .menu li  a.first { display:block; color:#999; padding:20px; }
+.container .top .nav .menu li  a:hover { display:block; border:none; color:#FFF; } 
+
+.container .top .nav .menu li .second_list { display:none; position:absolute; top:80px; background:rgba(0,0,0,0.62); z-index:1; *margin-left:-70px; }
+.container .top .nav .menu li .second_list li { float:none; list-style:none; }
+
+/* third_list positition */
+.container .top .nav .menu .happen_02:hover .third_list { display:block; }
+.container .top .nav .menu .happen_02:hover .third_list2 { display:block; }
+.container .top .nav .menu .happen_02:hover .third_list3 { display:block; }
+.container .top .nav .menu .happen_02:hover .third_list4 { display:block; }
+.container .top .nav .menu .happen_02:hover .third_list5 { display:block; }
+.container .top .nav .menu .happen_02:hover .third_list6 { display:block; }
+
+.container .top .nav .menu li .third_list { display:none; position:absolute; top:30%; left:100%; width:150%; padding-top:10px; background:rgba(0,0,0,0.62); z-index:1; *margin-left:-70px; }
+.container .top .nav .menu li .third_list2 { display:none; position:absolute; top:47%; left:100%; width:150%; padding-top:10px; background:rgba(0,0,0,0.62); z-index:1; *margin-left:-70px; }
+.container .top .nav .menu li .third_list3 { display:none; position:absolute; top:14%; left:100%; width:150%; padding-top:10px; background:rgba(0,0,0,0.62); z-index:1; *margin-left:-70px; }
+.container .top .nav .menu li .third_list4 { display:none; position:absolute; top:24%; left:100%; width:170%; padding-top:10px; background:rgba(0,0,0,0.62); z-index:1; *margin-left:-70px; }
+.container .top .nav .menu li .third_list5 { display:none; position:absolute; top:28%; left:100%; width:150%; padding-top:10px; background:rgba(0,0,0,0.62); z-index:1; *margin-left:-70px; }
+.container .top .nav .menu li .third_list6 { display:none; position:absolute; top:69%; left:100%; width:150%; padding-top:10px; background:rgba(0,0,0,0.62); z-index:1; *margin-left:-70px; }
+/* third_list positition over */
+
+.container .kv { width:100%; height:500px; margin:0 auto; clear:both; position: relative;}
+.container .kv .kv_content img {
+	width: 100%;
+	float: left;
+}
+.container .kv .kv_btn > div {
+	width: 30px;
+	height: 60px;
+	overflow: hidden;
+	cursor: pointer;
+	background: url(../images/next.png) no-repeat;
+	position: absolute;
+	top: 112px;
+}
+.container .kv .kv_btn .btn_next {
+	right: 0;
+	background-position: -30px 0;
+}
+.container .top .nav .menu li a.nav_home {
+	padding: 5px 25px 10px 0;
+}
