@@ -16,7 +16,7 @@ $(function() {
       key: "right"
     },
     scroll: {
-      // fx: "crossfade",
+      fx: "crossfade",
       onBefore : function(data) {
       	$(this).trigger("currentPosition", function(pos) {
       		$('.nav_main').eq(pos).trigger('click');
