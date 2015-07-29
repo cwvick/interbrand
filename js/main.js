@@ -1,5 +1,5 @@
 $(function() {
-  $('.kv_content img').once('load', function() {
+  $('.kv_content img').one('load', function() {
     $(this).fadeIn('slow');
   }).each(function() {
     if(this.complete) $(this).load();
