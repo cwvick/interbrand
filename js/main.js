@@ -1,6 +1,8 @@
 $(function() {
-  $('.kv_content img').fadeIn('slow');
-
+  $('.kv_content img').load(function() {
+    $(this).fadeIn('slow');
+  });
+  
   var menu_count = $('.nav_main').length;
 
   $(document).on('click', '.btn_prev, .btn_next', function() {
